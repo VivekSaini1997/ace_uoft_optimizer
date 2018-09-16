@@ -1,3 +1,6 @@
+# for now assuming the file will be stored as a json
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
