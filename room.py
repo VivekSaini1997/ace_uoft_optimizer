@@ -68,4 +68,9 @@ def fetch_parameter_from_html(soup, param):
     for tag in soup.descendants:
         for sibling_tag in tag.previous_siblings:
             if param in sibling_tag:
-                return str(tag.contents[0])
+                # if the room can't be rented, there is a janky non ascii character instead of 
+                # anything meaningful, as a result, catch that character and return something else
+                try:
+                    return str(tag.contents[0])
+                except UnicodeEncodeError:
+                    return "Can't be booked"

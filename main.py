@@ -1,6 +1,7 @@
 import requests
 import sys
 import room
+import room_list
 
 # the goal is to get it so that you can imput a 
 # room capacity requirement and a time and get a list of 
@@ -14,6 +15,9 @@ def test_main():
     r = room.room('BA', '1160')
     print r.capacity 
     print r.cost
+    rl = room_list.room_list()
+    for element in rl.elements:
+        print element.building_code, element.room_number, element.cost, element.capacity
 
 if __name__ == "__main__":
     test_main()
