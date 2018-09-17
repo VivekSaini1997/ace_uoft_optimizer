@@ -13,16 +13,19 @@ def main(args):
 
 # used for debugging and testing 
 def test_main():
-    r = room.room('BA', '1160')
-    print r.capacity 
-    print r.cost
+    # r = room.room('BA', '1160')
+    # print r.capacity 
+    # print r.cost
     # t1 and t2 are meant to profile
     t1 = time.time()
     rl = room_list.room_list('hehe.json')
+    rl.sort_by_capacity(ascending=False)
     t2 = time.time()
     print "{} seconds elapsed".format(t2 - t1)
     for element in rl.elements:
         print element.building_code, element.room_number, element.cost, element.capacity
+
+
 
 if __name__ == "__main__":
     test_main()

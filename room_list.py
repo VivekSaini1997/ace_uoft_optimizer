@@ -69,3 +69,12 @@ class room_list(object):
     def load_info_from_file(self, file_name):
         with open(file_name, 'r') as f:
             self.elements = [ room.room(dict_=dict_) for dict_ in json.load(f) ] 
+
+    # sorts the room list by capacity in place
+    # ascending or descending order sort depending on if 
+    # the ascending flag is set to true 
+    def sort_by_capacity(self, ascending=True):
+        if ascending == True:
+            self.elements.sort(key=lambda x : x.capacity)
+        else:
+            self.elements.sort(key=lambda x : x.capacity, reverse=True)
