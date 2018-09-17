@@ -2,12 +2,13 @@
 # maybe shouldn't be it's own class idk
 import room
 import requests
+import json
 from bs4 import BeautifulSoup as bs
 
 class room_list(object):
     def __init__(self, file_name = None):
         self.elements = []
-        # if you have a filenaame, just fetch the room list from the file
+        # if you have a filename, just fetch the room list from the file
         # else go to the server to fetch it
         if file_name is None:
             # this is the url that is used to figure out the rooms for each of the buildings
@@ -36,5 +37,26 @@ class room_list(object):
                 for room_number in room_number_list:
                     self.elements.append(room.room(building, room_number))
 
+                # this is just for testing purposes, will be removed soon enough
+                # break
+
+            # now we write the results we fetched to a json for caching reasons
+            self.store_info_to_file("hehe.json")
+
         else:
             pass
+
+    
+    # store the results to the file for use later
+    # helps to cache performance and not overload the uoft
+    # servers lol
+    def store_info_to_file(self, file_name):
+        # store all the parameters into a dict then convert that to a json and write it to a file
+        # do this for all of the rooms
+        # this is the dict construction
+        element_dict = [ room_.room_dict for room_ in self.elements ]
+        # this is the file writing
+        # perhaps this should be a member of roomlist along 
+        # with the below so the entire json is written at once
+        with open(file_name, 'w') as f:
+            f.write(json.dumps(element_dict, indent=4))
