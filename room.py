@@ -8,21 +8,32 @@ import json
 class room(object):
     
     # constructs a room object which stores the info stored on above
-    # fetch_from_server specifies whether or not to fetch the info from the server 
-    # or to use a file 
+    # dict_ specifies whether or not to fetch the info from the server 
+    # or to use a dict that would have been generated from a json file
     # the file is used to cache the results
-    def __init__(self, building_code, room_number, file_name = None):
-        self.building_code = building_code
-        self.room_number = room_number
-        # depending on whether or not a file name is specified
-        # update from the server or from a file if a file is provided
-        if file_name is None:
+    def __init__(self, building_code = None, room_number = None, dict_ = None):
+        # depending on whether or not a dict is specified
+        # update from the server or from a dict if a dict is given
+        if dict_ is None:
+            self.building_code = building_code
+            self.room_number = room_number
             self.fetch_info_from_server()
-            # when you fetch from the server, save to a file so as to not be rude
-            file_name = 'lol.json'
-            self.create_room_dict()
+            # when you fetch from the server, in order to allow the room_list
+            # class to store the results
+            self.create_dict_from_room()
+        elif building_code is None and room_number is None:
+            # if the dict is specified, use it to generate the neccessary fields
+            # for the struct
+            self.room_dict = dict_
+            self.building_code = dict_['building_code']
+            self.capacity = dict_['capacity']
+            self.cost = dict_['cost']
+            self.room_number = dict_['room_number']
         else:
-            self.fetch_info_from_file(file_name)
+            # this should never occur
+            # should probably raise an exception
+            print 'This is not good'
+
 
     # fetch the info for the building in particular using 
     # a request to ace.utoronto.ca
@@ -36,14 +47,8 @@ class room(object):
         self.capacity = int(fetch_parameter_from_html(soup, 'Capacity'))
         self.cost = fetch_parameter_from_html(soup, 'External Rental Rate')
 
-    # fetch the info for the building using a specified file
-    # should probably be formatted as a json
-    # this approach may have to be rethought up
-    def fetch_info_from_file(self, file_name):
-        pass
-
     # convert the fields into a dict for use when writing to a json file
-    def create_room_dict(self):
+    def create_dict_from_room(self):
         # we just brute force it for now, there may be a more elegant solution
         self.room_dict = {}
         self.room_dict['building_code'] = self.building_code

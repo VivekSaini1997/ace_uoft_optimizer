@@ -43,8 +43,9 @@ class room_list(object):
             # now we write the results we fetched to a json for caching reasons
             self.store_info_to_file("hehe.json")
 
+        # this is the else, it's a bit easier to follow logically
         else:
-            pass
+            self.load_info_from_file(file_name)
 
     
     # store the results to the file for use later
@@ -60,3 +61,11 @@ class room_list(object):
         # with the below so the entire json is written at once
         with open(file_name, 'w') as f:
             f.write(json.dumps(element_dict, indent=4))
+
+    # loads the information about the rooms for room bookings from a json file
+    # this is done to minimize server traffic and reduce time to increase performance
+    # seriously, the time to fetch all the data from server is a few minutes whereas to fetch
+    # from file is a few milliseconds
+    def load_info_from_file(self, file_name):
+        with open(file_name, 'r') as f:
+            self.elements = [ room.room(dict_=dict_) for dict_ in json.load(f) ] 

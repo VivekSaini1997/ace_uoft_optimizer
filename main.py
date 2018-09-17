@@ -18,7 +18,7 @@ def test_main():
     print r.cost
     # t1 and t2 are meant to profile
     t1 = time.time()
-    rl = room_list.room_list()
+    rl = room_list.room_list('hehe.json')
     t2 = time.time()
     print "{} seconds elapsed".format(t2 - t1)
     for element in rl.elements:
