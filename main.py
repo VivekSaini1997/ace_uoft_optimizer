@@ -25,7 +25,7 @@ def test_main():
     # for element in rl.elements:
     #     print element.building_code, element.room_number, element.cost, element.capacity
 
-    rl.elements[0].get_booking_vacancy('20190211', '1330')
+    rl.elements[0].get_booking_vacancy('20190211', start_time='13:30', end_time='14:30')
 
 
 

@@ -65,7 +65,8 @@ class room(object):
     # also you might want to look at a Calendar of Availability on the ace.utoronto.ca website
     # if you want more of a chance to follow along on this trainwreck
     # and make sure to look at the html if you want a bit more of an understanding
-    def get_booking_vacancy(self, date, time_of_day):
+    #TODO: Add support for a range of times instead of just a singular time
+    def get_booking_vacancy(self, date, time_of_day = '00:00', start_time = None, end_time = None):
         # this is the formatting to request the calendar availability
         # of this room for the given date and the subsequent request
         calendar_request_str = "https://ace.utoronto.ca/ws/f?p=200:3:::NO::P3_BLDG,P3_ROOM,P3_CALENDAR_DATE:{},{},{}".format(self.building_code, self.room_number, date)
@@ -75,13 +76,27 @@ class room(object):
 
         # get the day of the week that the date lies on
         # 0 is Monday, 6 is Sunday, and everything in between
-        day_and_time = datetime.datetime(int(date[:4]), int(date[4:6]), int(date[6:8]), int(time_of_day[:2]), int(time_of_day[2:4]))
+        day_and_time = datetime.datetime(int(date[:4]), int(date[4:6]), int(date[6:8]), int(time_of_day[:2]), int(time_of_day[3:5]))
         day_of_week = day_and_time.weekday()
 
         # day count is used to iterate through a subsection of the list once the correct time is found
         # time tracker is used to keep track of which time of day a given time slot in the calendar table refers to
         day_count = 0
         time_tracker = ''
+
+        # this is a test to see if we can get a time range instead of 
+        # just a singular time
+        valid_times = []
+        if start_time is not None and end_time is not None:
+            # create a range of valid times for the algorithm to check
+            start_interval = int(start_time[:2])
+            end_interval = int(end_time[:2])
+            # if the time ends on the hour, no need to book the room the room for the next hour
+            if '00' in end_time[3:5]:
+                end_interval -= 1
+            valid_times = range(start_interval, end_interval + 1)
+        else:
+            valid_times.append(int(time_of_day[:2]))
 
         # there probably is a cleaner way of doing this, this is just the first approach that came to mind tbh
         # go through all of the tags that either have a valign attribute (those would be elements of the table on the ace.utoronto website)
@@ -96,35 +111,34 @@ class room(object):
             if 't3Hour' in tag['class']:
                 try:
                     time_tracker = str(tag.contents[0]).strip('\n')
-                    print 'lol'
+                    # print 'lol'
                     day_count = 0
                 except UnicodeEncodeError:
                     pass
             
             # if you have a valid time tracker value compare that with 
-            # the desired time value, find the time slot that corresponds to the right day,
+            # the desired time value range, find the time slot that corresponds to the right day,
             # and return whether or not that time slot is vacant or not i.e., the time slot has a valid hour for it
             elif len(time_tracker) > 0:    
                 # check that the right times are being matched so that your looking through 
                 # the right subsection of time slots
-                if time_tracker[:2] == time_of_day[:2]:
+                if int(time_tracker[:2]) in valid_times:  
                     # if the time slot is the same day of the week as the date entered, return whether or not the room is vacant
                     # True for vacant, False for occupied
                     # if the string is empty, that means there is no text between the start and end tag so there is no booking in the time slot
                     # therefore it must be vacant, if the string has some text, there is a room booking so it is occupied
                     if day_count == day_of_week:
-                        print str(tag.contents[0]).strip('\n'), len(str(tag.contents[0]).strip('\n'))
+                        # print str(tag.contents[0]).strip('\n'), len(str(tag.contents[0]).strip('\n'))
                         occupier = str(tag.contents[0]).strip('\n')
                         # if it is vacant say so, if not specify who occupies the room
-                        print 'the date is {}, the time is {}'.format(day_and_time.date(), day_and_time.time())
+                        print 'the date is {}, the hour is {}:00'.format(day_and_time.date(), time_tracker[:2])
                         if len(occupier) == 0:
                             print '{} {} is vacant'.format(self.building_code, self.room_number)
                         else:
                             print '{} {} is occupied by {}'.format(self.building_code, self.room_number, occupier)
-                        break
                     # otherwise increment the day counter and continue
-                    else:
-                        day_count += 1
+                    # else:
+                    day_count += 1
 
         # if you got here, return False for now, but that means the input wasn't 
         return False
