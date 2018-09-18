@@ -22,8 +22,10 @@ def test_main():
     rl.sort_by_capacity(ascending=False)
     t2 = time.time()
     print "{} seconds elapsed".format(t2 - t1)
-    for element in rl.elements:
-        print element.building_code, element.room_number, element.cost, element.capacity
+    # for element in rl.elements:
+    #     print element.building_code, element.room_number, element.cost, element.capacity
+
+    rl.elements[0].get_booking_vacancy('20190211', '1330')
 
 
 

@@ -6,7 +6,11 @@ import json
 from bs4 import BeautifulSoup as bs
 
 class room_list(object):
-    def __init__(self, file_name = None):
+
+    # the constructor for the room list class which handles operations on multiple rooms
+    # file_name is the name of a file that has room information formatted as a json
+    # exclude_list is a list of buildings to exclude from search (probably because that room isn't bookable)
+    def __init__(self, file_name = None, exclude_list = []):
         self.elements = []
         # if you have a filename, just fetch the room list from the file
         # else go to the server to fetch it

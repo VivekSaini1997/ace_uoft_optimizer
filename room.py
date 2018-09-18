@@ -4,6 +4,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import json
+import datetime
 
 class room(object):
     
@@ -56,6 +57,77 @@ class room(object):
         self.room_dict['capacity'] = self.capacity
         self.room_dict['cost'] = self.cost
         return self.room_dict
+
+    # the function where a lot of the magic happens
+    # given a string of a date formatted YYYYMMDD and a time formatted HH:MM,
+    # return whether or not the room is vacant at the given day and time
+    # fair warning, this function is fricked up lol
+    # also you might want to look at a Calendar of Availability on the ace.utoronto.ca website
+    # if you want more of a chance to follow along on this trainwreck
+    # and make sure to look at the html if you want a bit more of an understanding
+    def get_booking_vacancy(self, date, time_of_day):
+        # this is the formatting to request the calendar availability
+        # of this room for the given date and the subsequent request
+        calendar_request_str = "https://ace.utoronto.ca/ws/f?p=200:3:::NO::P3_BLDG,P3_ROOM,P3_CALENDAR_DATE:{},{},{}".format(self.building_code, self.room_number, date)
+        calendar_request = requests.get(calendar_request_str)
+        # this is the soup used to parse the resulting html
+        calendar_request_soup = bs(calendar_request.text, "html.parser")
+
+        # get the day of the week that the date lies on
+        # 0 is Monday, 6 is Sunday, and everything in between
+        day_and_time = datetime.datetime(int(date[:4]), int(date[4:6]), int(date[6:8]), int(time_of_day[:2]), int(time_of_day[2:4]))
+        day_of_week = day_and_time.weekday()
+
+        # day count is used to iterate through a subsection of the list once the correct time is found
+        # time tracker is used to keep track of which time of day a given time slot in the calendar table refers to
+        day_count = 0
+        time_tracker = ''
+
+        # there probably is a cleaner way of doing this, this is just the first approach that came to mind tbh
+        # go through all of the tags that either have a valign attribute (those would be elements of the table on the ace.utoronto website)
+        # or those that have a class attribute equal to t3Hour (which tell us what hour of the day the next 7 table entries correspond,
+        # one entry for each day of the week)
+        for tag in calendar_request_soup.find_all(lambda x : (x.has_attr('valign') or 't3Hour' in x['class']) \
+            if x.has_attr('class') else False):
+
+            # if the tag has a class attribute equal to t3Hour, it is telling us what hour the next time slots refer to
+            # so set the time_tracker value to whatever time the tage encompasses
+            # catch the awkward exception where the first time slots don't have anything inside of them and move along
+            if 't3Hour' in tag['class']:
+                try:
+                    time_tracker = str(tag.contents[0]).strip('\n')
+                    print 'lol'
+                    day_count = 0
+                except UnicodeEncodeError:
+                    pass
+            
+            # if you have a valid time tracker value compare that with 
+            # the desired time value, find the time slot that corresponds to the right day,
+            # and return whether or not that time slot is vacant or not i.e., the time slot has a valid hour for it
+            elif len(time_tracker) > 0:    
+                # check that the right times are being matched so that your looking through 
+                # the right subsection of time slots
+                if time_tracker[:2] == time_of_day[:2]:
+                    # if the time slot is the same day of the week as the date entered, return whether or not the room is vacant
+                    # True for vacant, False for occupied
+                    # if the string is empty, that means there is no text between the start and end tag so there is no booking in the time slot
+                    # therefore it must be vacant, if the string has some text, there is a room booking so it is occupied
+                    if day_count == day_of_week:
+                        print str(tag.contents[0]).strip('\n'), len(str(tag.contents[0]).strip('\n'))
+                        occupier = str(tag.contents[0]).strip('\n')
+                        # if it is vacant say so, if not specify who occupies the room
+                        print 'the date is {}, the time is {}'.format(day_and_time.date(), day_and_time.time())
+                        if len(occupier) == 0:
+                            print '{} {} is vacant'.format(self.building_code, self.room_number)
+                        else:
+                            print '{} {} is occupied by {}'.format(self.building_code, self.room_number, occupier)
+                        break
+                    # otherwise increment the day counter and continue
+                    else:
+                        day_count += 1
+
+        # if you got here, return False for now, but that means the input wasn't 
+        return False
 
 # given a parameter, fetches a parameter from a given soup
 # this utilizes the manner in which parameters are
