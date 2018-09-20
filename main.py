@@ -24,8 +24,9 @@ def test_main():
     print "{} seconds elapsed".format(t2 - t1)
     # for element in rl.elements:
     #     print element.building_code, element.room_number, element.cost, element.capacity
-
-    rl.elements[0].get_booking_vacancy('20190211', start_time='13:30', end_time='14:30')
+    for element in rl.elements:
+        element.get_booking_vacancy('20190211', start_time='13:30', end_time='14:00')
+        print " "
 
 
 

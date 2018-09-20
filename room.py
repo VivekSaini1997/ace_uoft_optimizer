@@ -15,6 +15,7 @@ class room(object):
     def __init__(self, building_code = None, room_number = None, dict_ = None):
         # depending on whether or not a dict is specified
         # update from the server or from a dict if a dict is given
+        
         if dict_ is None:
             self.building_code = building_code
             self.room_number = room_number
@@ -34,7 +35,10 @@ class room(object):
             # this should never occur
             # should probably raise an exception
             print 'This is not good'
-
+        # when you get here, specify that the room is occupied by default
+        # change that when you find that the room is vacant in the 
+        # get_booking_vacancy function
+        self.vacant = False
 
     # fetch the info for the building in particular using 
     # a request to ace.utoronto.ca
@@ -59,8 +63,8 @@ class room(object):
         return self.room_dict
 
     # the function where a lot of the magic happens
-    # given a string of a date formatted YYYYMMDD and a time formatted HH:MM,
-    # return whether or not the room is vacant at the given day and time
+    # given a string of a date formatted YYYYMMDD and two times formatted HH:MM,
+    # return whether or not the room is vacant at the given day and in between the given times
     # fair warning, this function is fricked up lol
     # also you might want to look at a Calendar of Availability on the ace.utoronto.ca website
     # if you want more of a chance to follow along on this trainwreck
@@ -76,7 +80,7 @@ class room(object):
 
         # get the day of the week that the date lies on
         # 0 is Monday, 6 is Sunday, and everything in between
-        day_and_time = datetime.datetime(int(date[:4]), int(date[4:6]), int(date[6:8]), int(time_of_day[:2]), int(time_of_day[3:5]))
+        day_and_time = datetime.datetime(int(date[:4]), int(date[4:6]), int(date[6:8]))
         day_of_week = day_and_time.weekday()
 
         # day count is used to iterate through a subsection of the list once the correct time is found
@@ -84,8 +88,8 @@ class room(object):
         day_count = 0
         time_tracker = ''
 
-        # this is a test to see if we can get a time range instead of 
-        # just a singular time
+        # a list of all of the hours the room needs to be vacant in order to satisfy requirements
+        # created using the start and end times 
         valid_times = []
         if start_time is not None and end_time is not None:
             # create a range of valid times for the algorithm to check
@@ -132,16 +136,20 @@ class room(object):
                         occupier = str(tag.contents[0]).strip('\n')
                         # if it is vacant say so, if not specify who occupies the room
                         print 'the date is {}, the hour is {}:00'.format(day_and_time.date(), time_tracker[:2])
-                        if len(occupier) == 0:
-                            print '{} {} is vacant'.format(self.building_code, self.room_number)
-                        else:
+                        if len(occupier) > 0:
                             print '{} {} is occupied by {}'.format(self.building_code, self.room_number, occupier)
+                            self.vacant = False
+                            return False
+                        else:
+                            print '{} {} is vacant at this time'.format(self.building_code, self.room_number)
                     # otherwise increment the day counter and continue
                     # else:
                     day_count += 1
 
-        # if you got here, return False for now, but that means the input wasn't 
-        return False
+        # if you got here, return True because every time slot you required was vacant 
+        print '{} {} is vacant'.format(self.building_code, self.room_number)
+        self.vacant = True
+        return True
 
 # given a parameter, fetches a parameter from a given soup
 # this utilizes the manner in which parameters are
