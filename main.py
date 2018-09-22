@@ -3,6 +3,7 @@ import sys
 import room
 import room_list
 import time
+import threading
 
 # the goal is to get it so that you can imput a 
 # room capacity requirement and a time and get a list of 
@@ -24,10 +25,26 @@ def test_main():
     print "{} seconds elapsed".format(t2 - t1)
     # for element in rl.elements:
     #     print element.building_code, element.room_number, element.cost, element.capacity
-    for element in rl.elements:
-        element.get_booking_vacancy('20190211', start_time='13:30', end_time='14:00')
-        print " "
+    # for element in rl.elements:
+    #     element.get_booking_vacancy('20190211', start_time='13:30', end_time='14:00')
+    #     print " "
 
+    # a very crude implementation of multithreading
+    thread_list = []
+    t1 = time.time()
+    for i in range(len(rl.elements)):
+        thread_list.append(threading.Thread(target=get_booking_mt, kwargs={'index': i, 'rl': rl, 'date': '20190211', 'start_time': '13:30', 'end_time' : '14:00'}))
+
+    for i in range(len(thread_list)):
+        thread_list[i].start()
+
+    for i in range(len(thread_list)):
+        thread_list[i].join()
+    t2 = time.time()
+    print "{} seconds elapsed".format(t2 - t1)
+
+def get_booking_mt(index, rl, date, start_time, end_time):
+    rl.elements[index].get_booking_vacancy(date=date, start_time=start_time, end_time=end_time)
 
 
 if __name__ == "__main__":
