@@ -135,19 +135,19 @@ class room(object):
                         # print str(tag.contents[0]).strip('\n'), len(str(tag.contents[0]).strip('\n'))
                         occupier = str(tag.contents[0]).strip('\n')
                         # if it is vacant say so, if not specify who occupies the room
-                        print 'the date is {}, the hour is {}:00'.format(day_and_time.date(), time_tracker[:2])
+                        # print 'the date is {}, the hour is {}:00'.format(day_and_time.date(), time_tracker[:2])
                         if len(occupier) > 0:
-                            print '{} {} is occupied by {}'.format(self.building_code, self.room_number, occupier)
+                            # print '{} {} is occupied by {}'.format(self.building_code, self.room_number, occupier)
                             self.vacant = False
                             return False
-                        else:
-                            print '{} {} is vacant at this time'.format(self.building_code, self.room_number)
+                        #else:
+                            # print '{} {} is vacant at this time'.format(self.building_code, self.room_number)
                     # otherwise increment the day counter and continue
                     # else:
                     day_count += 1
 
         # if you got here, return True because every time slot you required was vacant 
-        print '{} {} is vacant'.format(self.building_code, self.room_number)
+        # print '{} {} is vacant'.format(self.building_code, self.room_number)
         self.vacant = True
         return True
 

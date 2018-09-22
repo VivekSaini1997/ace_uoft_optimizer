@@ -22,6 +22,8 @@ def test_main():
     rl = room_list.room_list('hehe.json')
     rl.sort_by_capacity(ascending=False)
     t2 = time.time()
+    for r in rl.elements:
+        print '{} {} capacity: {}'.format(r.building_code, r.room_number, r.capacity)
     print "{} seconds elapsed".format(t2 - t1)
     # for element in rl.elements:
     #     print element.building_code, element.room_number, element.cost, element.capacity
@@ -30,21 +32,21 @@ def test_main():
     #     print " "
 
     # a very crude implementation of multithreading
-    thread_list = []
-    t1 = time.time()
-    for i in range(len(rl.elements)):
-        thread_list.append(threading.Thread(target=get_booking_mt, kwargs={'index': i, 'rl': rl, 'date': '20190211', 'start_time': '13:30', 'end_time' : '14:00'}))
+    # thread_list = []
+    # t1 = time.time()
+    # for i in range(len(rl.elements)):
+    #     thread_list.append(threading.Thread(target=get_booking_mt, kwargs={'index': i, 'rl': rl, 'date': '20190211', 'start_time': '13:30', 'end_time' : '14:00'}))
 
-    for i in range(len(thread_list)):
-        thread_list[i].start()
+    # for i in range(len(thread_list)):
+    #     thread_list[i].start()
 
-    for i in range(len(thread_list)):
-        thread_list[i].join()
-    t2 = time.time()
-    print "{} seconds elapsed".format(t2 - t1)
-
-def get_booking_mt(index, rl, date, start_time, end_time):
-    rl.elements[index].get_booking_vacancy(date=date, start_time=start_time, end_time=end_time)
+    # for i in range(len(thread_list)):
+    #     thread_list[i].join()
+    # t2 = time.time()
+    # print "{} seconds elapsed".format(t2 - t1)
+    eligible_rooms = rl.multithreaded_get_eligible_rooms(capacity=400 ,date='20190211', start_time='13:30', end_time='14:00')
+    for r in eligible_rooms:
+        print "{} {} is vacant".format(r.building_code, r.room_number)
 
 
 if __name__ == "__main__":
