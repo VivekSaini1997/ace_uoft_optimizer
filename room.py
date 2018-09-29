@@ -39,6 +39,8 @@ class room(object):
         # change that when you find that the room is vacant in the 
         # get_booking_vacancy function
         self.vacant = False
+        # also provide a url to get room information
+        self.url = 'https://ace.utoronto.ca/ws/f?p=210:1:::::P1_BLDG,P1_ROOM:{},{}'.format(self.building_code, self.room_number)
 
     # fetch the info for the building in particular using 
     # a request to ace.utoronto.ca
@@ -164,4 +166,4 @@ def fetch_parameter_from_html(soup, param):
                 try:
                     return str(tag.contents[0])
                 except UnicodeEncodeError:
-                    return "Can't be booked"
+                    return "Not specified"

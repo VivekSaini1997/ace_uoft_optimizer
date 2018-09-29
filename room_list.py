@@ -46,7 +46,7 @@ class room_list(object):
                 # break
 
             # now we write the results we fetched to a json for caching reasons
-            self.store_info_to_file("hehe.json")
+            self.store_info_to_file("room_info.json")
 
         # this is the else, it's a bit easier to follow logically
         else:

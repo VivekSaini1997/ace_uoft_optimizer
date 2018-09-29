@@ -1,5 +1,6 @@
 # for now assuming the file will be stored as a json
-*.json
+# turns out having the json is useful
+# *.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
