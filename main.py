@@ -34,46 +34,24 @@ def main():
     eligible_rooms = rl.multithreaded_get_eligible_rooms(capacity=args.capacity ,date=args.date, start_time=args.starttime, end_time=args.endtime)
     # print the eligible rooms
     for room_ in eligible_rooms:
-        print "{} {} is vacant at a cost of {}, the url is {}".format(room_.building_code, room_.room_number, room_.cost, room_.url)
+        print("{} {} is vacant at a cost of {}, the url is {}".format(room_.building_code, room_.room_number, room_.cost, room_.url))
     if len(eligible_rooms) == 0:
-        print "No rooms available to satisfy those conditions, sorry."
+        print("No rooms available to satisfy those conditions, sorry.")
     #print args.date
 
 # used for debugging and testing 
 def test_main():
-    # r = room.room('BA', '1160')
-    # print r.capacity 
-    # print r.cost
-    # t1 and t2 are meant to profile
+
     t1 = time.time()
     rl = room_list.room_list('room_info.json')
     rl.sort_by_capacity(ascending=False)
     t2 = time.time()
-    #for r in rl.elements:
-        #print '{} {} capacity: {}'.format(r.building_code, r.room_number, r.capacity)
-    print "{} seconds elapsed".format(t2 - t1)
-    # for element in rl.elements:
-    #     print element.building_code, element.room_number, element.cost, element.capacity
-    # for element in rl.elements:
-    #     element.get_booking_vacancy('20190211', start_time='13:30', end_time='14:00')
-    #     print " "
 
-    # a very crude implementation of multithreading
-    # thread_list = []
-    # t1 = time.time()
-    # for i in range(len(rl.elements)):
-    #     thread_list.append(threading.Thread(target=get_booking_mt, kwargs={'index': i, 'rl': rl, 'date': '20190211', 'start_time': '13:30', 'end_time' : '14:00'}))
+    print("{} seconds elapsed".format(t2 - t1))
 
-    # for i in range(len(thread_list)):
-    #     thread_list[i].start()
-
-    # for i in range(len(thread_list)):
-    #     thread_list[i].join()
-    # t2 = time.time()
-    # print "{} seconds elapsed".format(t2 - t1)
     eligible_rooms = rl.multithreaded_get_eligible_rooms(capacity=200 ,date='20190211', start_time='13:30', end_time='14:00')
     for r in eligible_rooms:
-        print "{} {} is vacant".format(r.building_code, r.room_number)
+        print("{} {} is vacant".format(r.building_code, r.room_number))
 
 
 

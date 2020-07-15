@@ -34,7 +34,7 @@ class room(object):
         else:
             # this should never occur
             # should probably raise an exception
-            print 'This is not good'
+            print('This is not good')
         # when you get here, specify that the room is occupied by default
         # change that when you find that the room is vacant in the 
         # get_booking_vacancy function

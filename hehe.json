@@ -1,0 +1,2570 @@
+[
+    {
+        "building_code": "AB", 
+        "capacity": 70, 
+        "room_number": "107", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "AB", 
+        "capacity": 40, 
+        "room_number": "114", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "AP", 
+        "capacity": 54, 
+        "room_number": "120", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "AP", 
+        "capacity": 25, 
+        "room_number": "124", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 160, 
+        "room_number": "1130", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 278, 
+        "room_number": "1160", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 130, 
+        "room_number": "1170", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 130, 
+        "room_number": "1180", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 127, 
+        "room_number": "1190", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 85, 
+        "room_number": "1200", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 85, 
+        "room_number": "1210", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 85, 
+        "room_number": "1220", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 60, 
+        "room_number": "1230", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 60, 
+        "room_number": "1240", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 45, 
+        "room_number": "2135", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 39, 
+        "room_number": "2139", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2145", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2155", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 35, 
+        "room_number": "2159", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2165", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2175", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 25, 
+        "room_number": "2179", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2185", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 50, 
+        "room_number": "2195", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 35, 
+        "room_number": "3008", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 35, 
+        "room_number": "3116", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 45, 
+        "room_number": "B024", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 25, 
+        "room_number": "B025", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BA", 
+        "capacity": 25, 
+        "room_number": "B026", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BF", 
+        "capacity": 20, 
+        "room_number": "214", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BF", 
+        "capacity": 40, 
+        "room_number": "215", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BF", 
+        "capacity": 30, 
+        "room_number": "315", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BF", 
+        "capacity": 15, 
+        "room_number": "316", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BF", 
+        "capacity": 50, 
+        "room_number": "323", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BI", 
+        "capacity": 198, 
+        "room_number": "131", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 40, 
+        "room_number": "112", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 26, 
+        "room_number": "113", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 44, 
+        "room_number": "114", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 121, 
+        "room_number": "205", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 15, 
+        "room_number": "305", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 15, 
+        "room_number": "306", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 20, 
+        "room_number": "312", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 70, 
+        "room_number": "313", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 70, 
+        "room_number": "325", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "BL", 
+        "capacity": 15, 
+        "room_number": "327", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "CB", 
+        "capacity": 101, 
+        "room_number": "114", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 26, 
+        "room_number": "1016M", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 400, 
+        "room_number": "1050", 
+        "cost": "$77.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 40, 
+        "room_number": "4000", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 55, 
+        "room_number": "4001", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 105, 
+        "room_number": "B142", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "ES", 
+        "capacity": 90, 
+        "room_number": "B149", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "EX", 
+        "capacity": 309, 
+        "room_number": "100", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "EX", 
+        "capacity": 336, 
+        "room_number": "200", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "EX", 
+        "capacity": 108, 
+        "room_number": "300", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "EX", 
+        "capacity": 106, 
+        "room_number": "310", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "EX", 
+        "capacity": 120, 
+        "room_number": "320", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 40, 
+        "room_number": "135", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 40, 
+        "room_number": "139", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 45, 
+        "room_number": "24", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 30, 
+        "room_number": "300", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 30, 
+        "room_number": "303", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 45, 
+        "room_number": "309", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 30, 
+        "room_number": "324", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 30, 
+        "room_number": "328", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FE", 
+        "capacity": 35, 
+        "room_number": "33", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FG", 
+        "capacity": 197, 
+        "room_number": "103", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "FG", 
+        "capacity": 28, 
+        "room_number": "129", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FG", 
+        "capacity": 42, 
+        "room_number": "139", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "FG", 
+        "capacity": 22, 
+        "room_number": "77", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "119", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "120", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "220", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "221", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "244", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 104, 
+        "room_number": "248", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 89, 
+        "room_number": "303", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 72, 
+        "room_number": "304", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 72, 
+        "room_number": "404", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "GB", 
+        "capacity": 81, 
+        "room_number": "405", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HA", 
+        "capacity": 48, 
+        "room_number": "316", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "HA", 
+        "capacity": 50, 
+        "room_number": "401", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HA", 
+        "capacity": 98, 
+        "room_number": "403", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HA", 
+        "capacity": 15, 
+        "room_number": "409", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "HA", 
+        "capacity": 50, 
+        "room_number": "410", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 34, 
+        "room_number": "100", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 84, 
+        "room_number": "106", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 54, 
+        "room_number": "108", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 251, 
+        "room_number": "610", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 24, 
+        "room_number": "614", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 24, 
+        "room_number": "618", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 24, 
+        "room_number": "696", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 16, 
+        "room_number": "705", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "HS", 
+        "capacity": 16, 
+        "room_number": "715", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "IN", 
+        "capacity": 45, 
+        "room_number": "204", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "IN", 
+        "capacity": 20, 
+        "room_number": "209", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "IN", 
+        "capacity": 20, 
+        "room_number": "223", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "IN", 
+        "capacity": 40, 
+        "room_number": "312", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "IN", 
+        "capacity": 20, 
+        "room_number": "313", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "KP", 
+        "capacity": 187, 
+        "room_number": "108", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "KP", 
+        "capacity": 30, 
+        "room_number": "113", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 28, 
+        "room_number": "123", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 50, 
+        "room_number": "155", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 42, 
+        "room_number": "157", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 108, 
+        "room_number": "158", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 208, 
+        "room_number": "159", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 141, 
+        "room_number": "161", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "LM", 
+        "capacity": 154, 
+        "room_number": "162", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MB", 
+        "capacity": 225, 
+        "room_number": "128", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "MC", 
+        "capacity": 350, 
+        "room_number": "102", 
+        "cost": "$77.00 / hour"
+    }, 
+    {
+        "building_code": "MC", 
+        "capacity": 133, 
+        "room_number": "252", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MC", 
+        "capacity": 134, 
+        "room_number": "254", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 196, 
+        "room_number": "102", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 196, 
+        "room_number": "103", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 30, 
+        "room_number": "118", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 92, 
+        "room_number": "134", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 92, 
+        "room_number": "137", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 196, 
+        "room_number": "202", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MP", 
+        "capacity": 196, 
+        "room_number": "203", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 500, 
+        "room_number": "2158", 
+        "cost": "$97.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 140, 
+        "room_number": "2170", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 142, 
+        "room_number": "2172", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 80, 
+        "room_number": "2173", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 18, 
+        "room_number": "2290", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 18, 
+        "room_number": "2394", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 274, 
+        "room_number": "3153", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 250, 
+        "room_number": "3154", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 59, 
+        "room_number": "3278", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 22, 
+        "room_number": "3290", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 87, 
+        "room_number": "4171", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MS", 
+        "capacity": 87, 
+        "room_number": "4279", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 468, 
+        "room_number": "150", 
+        "cost": "$200.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 72, 
+        "room_number": "315", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "320", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 72, 
+        "room_number": "330", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "350", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 100, 
+        "room_number": "360", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "370", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 72, 
+        "room_number": "380", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "420", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "430", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "440", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "480", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "MY", 
+        "capacity": 36, 
+        "room_number": "490", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "NL", 
+        "capacity": 174, 
+        "room_number": "6", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 22, 
+        "room_number": "10200", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 16, 
+        "room_number": "10204", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 14, 
+        "room_number": "11200", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 20, 
+        "room_number": "11204", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 24, 
+        "room_number": "2198", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 20, 
+        "room_number": "2199", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 33, 
+        "room_number": "2205", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 32, 
+        "room_number": "2211", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 150, 
+        "room_number": "2212", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 80, 
+        "room_number": "2214", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 24, 
+        "room_number": "2227", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "2279", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 28, 
+        "room_number": "2281", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "2286", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 24, 
+        "room_number": "2289", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "2295", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "2296", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 25, 
+        "room_number": "3310", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "3311", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 26, 
+        "room_number": "3312", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 36, 
+        "room_number": "4410", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 36, 
+        "room_number": "4414", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 36, 
+        "room_number": "4416", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 28, 
+        "room_number": "4418", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 24, 
+        "room_number": "4420", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "4426", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 65, 
+        "room_number": "5150", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "5160", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 80, 
+        "room_number": "5170", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "5230", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "5240", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 80, 
+        "room_number": "5250", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 33, 
+        "room_number": "5260", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 35, 
+        "room_number": "5270", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 36, 
+        "room_number": "5280", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 35, 
+        "room_number": "5290", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 24, 
+        "room_number": "7192", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8170", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8180", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8200", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 30, 
+        "room_number": "8201", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8214", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8220", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 40, 
+        "room_number": "8280", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "OI", 
+        "capacity": 508, 
+        "room_number": "G162", 
+        "cost": "$97.00 / hour"
+    }, 
+    {
+        "building_code": "RL", 
+        "capacity": 26, 
+        "room_number": "14190", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "RS", 
+        "capacity": 85, 
+        "room_number": "208", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "RS", 
+        "capacity": 104, 
+        "room_number": "211", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "RS", 
+        "capacity": 59, 
+        "room_number": "310", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 20, 
+        "room_number": "1007", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "1065", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 44, 
+        "room_number": "127", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 44, 
+        "room_number": "133", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 30, 
+        "room_number": "134", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 50, 
+        "room_number": "142", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 50, 
+        "room_number": "147", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 40, 
+        "room_number": "151", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 40, 
+        "room_number": "157", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 0, 
+        "room_number": "2015", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 400, 
+        "room_number": "2030", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 14, 
+        "room_number": "2050D", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2060", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2062", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2064", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2066", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2068", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2070", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2072", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2074", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2076", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2078", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2080", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2082", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2084", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2086", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "2088", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 80, 
+        "room_number": "287", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3003", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3005", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3007", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3009", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3011", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3013", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3015", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3017", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3062", 
+        "cost": "$999.99 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3064", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3066", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3068", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3070", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3072", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3074", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3076", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3078", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3080", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3082", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3084", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3086", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3090", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3094", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3096", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3097", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "3098", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 50, 
+        "room_number": "392", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "394", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 24, 
+        "room_number": "4057", 
+        "cost": "$999.99 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 8, 
+        "room_number": "448", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "470", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "5037", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 8, 
+        "room_number": "548", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "570", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "6024", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "7024", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 10, 
+        "room_number": "8024", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 14, 
+        "room_number": "9005", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1010", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1020", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1025", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1030", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1035", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "L1043", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "L1045", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "L1047", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "L1049", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "L1051", 
+        "cost": "$999.99 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 70, 
+        "room_number": "L1060", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1041", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1043", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1045", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1047", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1049", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RT", 
+        "capacity": 6, 
+        "room_number": "M1051", 
+        "cost": "$0.00 / hour"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 20, 
+        "room_number": "1016", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "132", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "140", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 40, 
+        "room_number": "150", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "201", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "203", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "205", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "207", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "218", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "220", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "222", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "224", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "230", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "232", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "234", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "235", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "236", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "238", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "240", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "251", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "255", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 8, 
+        "room_number": "256", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 40, 
+        "room_number": "420", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 20, 
+        "room_number": "428", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 59, 
+        "room_number": "444", 
+        "cost": "$999.99 / hour"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "453", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490A", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490B", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490C", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490D", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490E", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "490F", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 5, 
+        "room_number": "720", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "721", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "727", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "730", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "738", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "740", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "744", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "750", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "753", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "758", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 12, 
+        "room_number": "759", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 20, 
+        "room_number": "841", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 80, 
+        "room_number": "907", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RU", 
+        "capacity": 20, 
+        "room_number": "954", 
+        "cost": "Can't be booked"
+    }, 
+    {
+        "building_code": "RW", 
+        "capacity": 156, 
+        "room_number": "110", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "RW", 
+        "capacity": 156, 
+        "room_number": "117", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "RW", 
+        "capacity": 80, 
+        "room_number": "140", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "RW", 
+        "capacity": 49, 
+        "room_number": "142", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "RW", 
+        "capacity": 59, 
+        "room_number": "143", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SF", 
+        "capacity": 160, 
+        "room_number": "1101", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SF", 
+        "capacity": 222, 
+        "room_number": "1105", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "SF", 
+        "capacity": 72, 
+        "room_number": "2202", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SF", 
+        "capacity": 110, 
+        "room_number": "3202", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 26, 
+        "room_number": "100", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "114", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "218", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "222", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "346", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "348", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "418", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 75, 
+        "room_number": "548", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 30, 
+        "room_number": "702", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SK", 
+        "capacity": 45, 
+        "room_number": "720", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 97, 
+        "room_number": "1069", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 71, 
+        "room_number": "1070", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 101, 
+        "room_number": "1071", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 69, 
+        "room_number": "1072", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 101, 
+        "room_number": "1073", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 69, 
+        "room_number": "1074", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 26, 
+        "room_number": "1078", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 26, 
+        "room_number": "1080", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 96, 
+        "room_number": "1083", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 55, 
+        "room_number": "1084", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 96, 
+        "room_number": "1085", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 55, 
+        "room_number": "1086", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 96, 
+        "room_number": "1087", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 55, 
+        "room_number": "1088", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 25, 
+        "room_number": "2101", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 188, 
+        "room_number": "2102", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 15, 
+        "room_number": "2104", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 60, 
+        "room_number": "2105", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 95, 
+        "room_number": "2106", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 95, 
+        "room_number": "2108", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 93, 
+        "room_number": "2110", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 40, 
+        "room_number": "2111", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 15, 
+        "room_number": "2112", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 26, 
+        "room_number": "2114", 
+        "cost": "$0.35 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 15, 
+        "room_number": "2116", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 188, 
+        "room_number": "2117", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 188, 
+        "room_number": "2118", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 15, 
+        "room_number": "2119", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 25, 
+        "room_number": "2120", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 60, 
+        "room_number": "2125", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 85, 
+        "room_number": "2127", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 188, 
+        "room_number": "2135", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "SS", 
+        "capacity": 26, 
+        "room_number": "581", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 150, 
+        "room_number": "140", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 59, 
+        "room_number": "144", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 26, 
+        "room_number": "148", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 45, 
+        "room_number": "152", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 97, 
+        "room_number": "161", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 88, 
+        "room_number": "163", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 33, 
+        "room_number": "175", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 33, 
+        "room_number": "177", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 108, 
+        "room_number": "179", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 59, 
+        "room_number": "244", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 23, 
+        "room_number": "248", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 22, 
+        "room_number": "255", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 45, 
+        "room_number": "256", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 22, 
+        "room_number": "257", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 48, 
+        "room_number": "261", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 42, 
+        "room_number": "330", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 22, 
+        "room_number": "44", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 20, 
+        "room_number": "51", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 61, 
+        "room_number": "52", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 18, 
+        "room_number": "53", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 18, 
+        "room_number": "55", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 21, 
+        "room_number": "57", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 20, 
+        "room_number": "63", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 34, 
+        "room_number": "65", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 34, 
+        "room_number": "67", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 22, 
+        "room_number": "69", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 50, 
+        "room_number": "85", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 50, 
+        "room_number": "87", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 67, 
+        "room_number": "A101", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 20, 
+        "room_number": "B203", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 27, 
+        "room_number": "D301", 
+        "cost": "$35.00 / hour"
+    }, 
+    {
+        "building_code": "UC", 
+        "capacity": 18, 
+        "room_number": "F204", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WB", 
+        "capacity": 240, 
+        "room_number": "116", 
+        "cost": "$65.00 / hour"
+    }, 
+    {
+        "building_code": "WB", 
+        "capacity": 60, 
+        "room_number": "119", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WB", 
+        "capacity": 80, 
+        "room_number": "130", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WB", 
+        "capacity": 60, 
+        "room_number": "219", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WE", 
+        "capacity": 20, 
+        "room_number": "69", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WE", 
+        "capacity": 25, 
+        "room_number": "74", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WE", 
+        "capacity": 26, 
+        "room_number": "75", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WE", 
+        "capacity": 20, 
+        "room_number": "76", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WI", 
+        "capacity": 156, 
+        "room_number": "1016", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "WI", 
+        "capacity": 117, 
+        "room_number": "1017", 
+        "cost": "$55.00 / hour"
+    }, 
+    {
+        "building_code": "WI", 
+        "capacity": 22, 
+        "room_number": "2006", 
+        "cost": "$30.00 / hour"
+    }, 
+    {
+        "building_code": "WI", 
+        "capacity": 60, 
+        "room_number": "523", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WI", 
+        "capacity": 70, 
+        "room_number": "524", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WO", 
+        "capacity": 59, 
+        "room_number": "20", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WO", 
+        "capacity": 55, 
+        "room_number": "25", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WO", 
+        "capacity": 58, 
+        "room_number": "30", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WO", 
+        "capacity": 56, 
+        "room_number": "35", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WW", 
+        "capacity": 50, 
+        "room_number": "119", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WW", 
+        "capacity": 50, 
+        "room_number": "120", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WW", 
+        "capacity": 50, 
+        "room_number": "121", 
+        "cost": "$41.00 / hour"
+    }, 
+    {
+        "building_code": "WW", 
+        "capacity": 80, 
+        "room_number": "126", 
+        "cost": "$41.00 / hour"
+    }
+]
